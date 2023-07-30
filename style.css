@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html {
+    height: 100vh;
+}
+  
+body {
+    background: #000;
+}
+.heading{
+    font-size: 70px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: white;
+    align-self: center;
+    color: #000;
+}
+canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1920px;
+    aspect-ratio: auto 1920 / 1080;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    z-index: -5;
+}
+.text{
+    background-color: rgba(0, 0, 0, 0.319);
+    max-width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:2%;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+}
+.sec1{
+    align-items:end;
+    justify-content: space-around;
+}
+.sec1 .text{
+    max-width: 50%;
+}
+h1 {
+    font-size: 70px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 25px;
+    text-align: justify;
+}
+.sec3 h1{
+    font-size: 50px;
+}
+@media only screen and (max-width: 1025px) {
+    .sec5 p{
+        font-size: 25px !important;
+    }
+    .sec5 h1{
+        font-size: 70px !important;
+    }
+    .section{
+        padding: 2rem !important;
+    }
+    p{
+        font-size: 20px !important;
+    }
+    ul{
+        font-size: 20px !important;
+    }
+    .text{
+        max-width: 100% !important;
+    }
+    .ISRO{
+        font-size:70px !important;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .sec5 p{
+        font-size: 25px !important;
+    }
+    .sec5 h1{
+        font-size: 70px !important;
+    }
+    .section{
+        padding: 2rem !important;
+    }
+    .heading{
+        font-size: 50px !important;
+    }
+    h1{
+        font-size: 40px !important;
+    }
+    ul{
+        font-size: 18px !important;
+    }
+    p{
+        font-size: 18px !important;
+    }
+    .text{
+        max-width: 100% !important;
+    }
+    .ISRO{
+        font-size:70px !important;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .sec5 p{
+        font-size: 20px !important;
+    }
+    .sec5 h1{
+        font-size: 50px !important;
+    }
+    .section{
+        padding: 1rem !important;
+    }
+    .heading{
+        font-size: 40px !important;
+    }
+    h1{
+        font-size: 30px !important;
+    }
+    p{
+        font-size: 15px !important;
+    }
+    ul{
+        font-size: 15px !important;
+    }
+    .text{
+        max-width: 100% !important;
+    }
+    .ISRO{
+        font-size:50px !important;
+        margin-bottom: 5px !important;
+    }
+}
